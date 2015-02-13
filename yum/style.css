@@ -16,7 +16,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption,, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -58,4 +58,5 @@ aside {color:grey;}
 body {color:black;}
 footer {color:grey;}
 
-h1{fontsize 200%}
+h1{font-size:200%;}
+footer{font-size:75%;}
