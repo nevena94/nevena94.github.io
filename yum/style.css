@@ -53,10 +53,28 @@ table {
 
 /* END RESET */
 
-h1 {color:black;}
-aside {color:grey;}
-body {color:black;}
-footer {color:grey;}
+h1 {color:black;
+	font-family:helvetica;
+	font-style:bold;
+	font-size:3.5em;
+}
+h2 {color:black;
+	font-family:helvetica;
+	font-style:thin;
+	font-size:1.75em;
+}
+ol {font-family:Times;
+	font-size:1em;
+}
+body {color:black;
+	font-family:Times;
+}
+h3 {color:black;
+	font-family:Times;
+	font-style:bold;
+}
+footer {font-family:Times;
+	font-style:italic;
+	font-size:.75em;
+}
 
-h1{font-size:200%;}
-footer{font-size:75%;}
