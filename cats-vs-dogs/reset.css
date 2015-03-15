@@ -10,9 +10,10 @@ footer {font-family:times;
 		font-size:.5em;
 }
 
- #section1 {float:right;
+ body {float:right;
 	 width:47%;
  }
- #section2 {float:right;
+section {float:left;
 	 width:47%;
  }
+ nav{font-style:bold;}
