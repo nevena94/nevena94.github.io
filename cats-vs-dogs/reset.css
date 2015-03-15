@@ -9,3 +9,10 @@ h2{font-family:times;
 footer {font-family:times;
 		font-size:.5em;
 }
+
+ #section1 {float:right;
+	 width:47%;
+ }
+ #section2 {float:right;
+	 width:47%;
+ }
