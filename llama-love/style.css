@@ -52,4 +52,13 @@ table {
 
 /* -----------------END RESET---------------- */
 
-
+article {float:left;
+	width:47%;
+ }
+ h1{font-style:bold;
+	 font-size:2em;
+ }
+ h2{font-style:italic;
+	 font-size:1em;
+ }
+ img style{margin:10px;}
