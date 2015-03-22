@@ -53,6 +53,32 @@ table {
 
 /* END RESET */
 
+#container { background-color:white; margin:20px; width:1000px; height:650px; padding:15px;
+    position:relative;
+	border:1px solid #eee;
+	    border-radius:4px;
+	    padding:10px 10px 30px 10px;
+	    box-shadow:5px 5px 10px #CCC;
+  }
+  #title { position:absolute; 
+	  top:20px;
+	  left:30px;  		
+  }
+  #ing { position:absolute;
+	  top:200px;
+	  left:30px;
+  }
+  #directions { position:absolute;
+	  top:200px;
+	  left:280px;
+	  width:400px;
+  }
+  #footer { position:absolute;
+	  bottom:35px;
+	  right:50px; 
+	  width:200px; 		
+  }
+
 h1 {color:black;
 	font-family:helvetica;
 	font-style:bold;
