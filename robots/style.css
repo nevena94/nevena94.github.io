@@ -33,7 +33,24 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	color:black;
+	font-family:helvetica;
+	font-size:.75em;
+
 }
+h1{color:#8B4513;
+	font-family:helvetica;
+	font-size:2em;	
+	font-weight:bold;
+	text-transform: capitalize;
+}
+h2{color:#8B4513;
+	font-family:helvetica;
+	font-size:1em;	
+	font-weight:bold;
+	text-transform: capitalize;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -49,4 +66,92 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+a{ text-decoration:none;
+	color:white;
+		
+}
+
+#site-wrapper{
+	background-color:tan;
+	height:100px;
+	position:relative;
+	top:0px;
+	left:0px;
+    }
+
+    #site-header{
+	position:absolute;
+	top:5px;
+	left:150px;
+	color:white;
+	font-family:helvetica;
+	font-style:bold;
+	
+    }
+    #top-nav{
+	float:left;
+	width:100px;	
+	
+    }
+
+#menu-wrapper{
+	background-color:#8B4513;
+	height:25px;
+	position:relative;
+	top:0px;
+	
+    }
+
+    .navButton {
+	float:left;
+	width:100px;
+	font-family:helvetica;
+	font-weight:bold;
+	color:white;
+	padding:7px;
+   
+    }
+	
+	#main-menu{
+		position:absolute;
+		left:150px;		
+				
+	}
+#content-wrapper{
+	background-color:white;
+	position:relative;	
+	height:400px;
+	top:0px;
+	width:100%;
+}
+
+	#page{
+		float:left;
+		width:35%;
+		position:absolute;
+		left:150px;
+		top:50px;
+	
+	}
+	#side-bar{
+		width:20%;
+		position:absolute;
+		left:325px;
+		
+	}
+	
+	
+
+#foot-wrapper {
+	background-color:purple;
+	position:relative;
+	height:200px;
+	top:0px;
+	
+}
+
+
+
+
 
