@@ -85,6 +85,12 @@ nav li{
 	
 }
 
+#bodyBox{
+	border-bottom:thick solid black;
+	clear:both;
+	
+}
+
 #section1{
 	float:left;
 	width:45%;
