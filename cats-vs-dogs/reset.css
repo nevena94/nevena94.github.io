@@ -76,7 +76,7 @@ header {
 }
 nav li{
 	display:inline-block;
-	margin:20px;
+	margin:10px;
 	text-align:center;
 	font-family:georgia;
 	font-weight:bold;
@@ -85,8 +85,9 @@ nav li{
 	
 }
 
-#bodyBox{
-	border-bottom:thick solid black;
+nav{
+	border-bottom:2.5px solid black;
+	border-top:2.5px solid black;
 	clear:both;
 	
 }
@@ -96,13 +97,14 @@ nav li{
 	width:45%;
 	clear:both;
 	margin-right:2%;
-	
+	margin-top:2%;
 }
 
 #section2{
 	float:left;
 	width:45%;
 	margin-left:2%;
+	margin-top:2%;
 		
 }
 
@@ -110,5 +112,8 @@ footer{
 	clear:both;
 	font-family:georgia;
 	font-size:.25em;
+	border-top:2.5px solid black;
+	margin-top:2%;
+	width:100%;
 	
 }

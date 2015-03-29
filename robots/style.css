@@ -68,6 +68,10 @@ table {
 }
 
 a{ text-decoration:none;
+	color:black;
+		
+}
+nav a{ text-decoration:none;
 	color:white;
 		
 }
@@ -134,10 +138,11 @@ a{ text-decoration:none;
 		top:50px;
 	
 	}
-	#side-bar{
+	#sidebar{
 		width:20%;
 		position:absolute;
-		left:325px;
+		left:725px;
+		top:50px;
 		
 	}
 	
@@ -147,11 +152,23 @@ a{ text-decoration:none;
 	background-color:purple;
 	position:relative;
 	height:200px;
-	top:0px;
+	top:500px;
+	width:100%;
+	clear:both;
 	
 }
-
-
+	#footer-contact{
+		position:absolute;
+		left:150px;
+		width:10%;
+		
+	}
+	#footer-follow{
+		position:absolute;
+		left:800px;
+		
+	}
+	
 
 
 
