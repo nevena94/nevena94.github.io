@@ -148,11 +148,11 @@ nav a{ text-decoration:none;
 	
 	
 
-#foot-wrapper {
-	background-color:purple;
+#footer-wrapper {
+	background-color:#8B4513;
 	position:relative;
-	height:200px;
-	top:500px;
+	height:125px;
+	top:75px;
 	width:100%;
 	clear:both;
 	
@@ -168,7 +168,12 @@ nav a{ text-decoration:none;
 		left:800px;
 		
 	}
-	
+
+	#share {
+		float:left;
+		width:20%;
+		
+	}
 
 
 
