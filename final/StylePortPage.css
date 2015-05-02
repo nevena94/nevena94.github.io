@@ -87,15 +87,35 @@ a{
 	left:15px;
 }
 
-#samples {
+#container {
 	position:relative;
-	top:100px;
-	left:200px;
-	max-width:75%;
+	
 }
 
-#S {
-	float:left;
-	padding:5px;
+#mainImg {
+	position:absolute;
+	top:50px;
+	left:200px;
+	
+	
+}
 
+#imgWrap {
+	position:absolute;
+	top:365px;
+	left:200px;
+	
+}
+
+#otherImg {
+	float:left;
+	padding:2px;
+	max-width:50%;
+}
+
+#copy {
+	position:absolute;	
+	top:100px;
+	left:615px;
+	max-width:25%;
 }
