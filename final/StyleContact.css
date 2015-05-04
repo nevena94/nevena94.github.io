@@ -51,6 +51,12 @@ table {
 
 /*start*/
 
+@font-face {
+    font-family: Oswald;
+    src: url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+   
+}
+
 
 #navWrap {
 	position:relative;
@@ -68,6 +74,8 @@ nav a{
 	text-decoration:none;
 	color:8f8f8f;
 	font-size:1.5em;
+	font-family:Oswald;
+	font-weight:thin;
 }
 
 #link {
@@ -103,12 +111,24 @@ nav a{
 	position:absolute;
 	top:145px;
 	left:400px;
+	font-family:Oswald;
+	font-weight:thin;
+	font-size:.75em;
+	line-height:2;	
+	color:8f8f8f;
+	
 	
 }
+
+
 
 #SMlinks {
 	position:absolute;
 	top:217px;
 	left:400px;
+	font-family:Oswald;
+	font-weight:thin;
+	font-size:.75em;	
+	color:8f8f8f;
 	
 }

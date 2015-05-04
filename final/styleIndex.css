@@ -51,6 +51,12 @@ table {
 
 /*start*/
 
+@font-face {
+    font-family: Oswald;
+    src: url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+   
+}
+
 html { 
   background: url(Images/Splash.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -74,6 +80,8 @@ a{
 	text-decoration:none;
 	color:white;
 	font-size:1.5em;
+	font-family:Oswald;
+	font-weight:thin;
 }
 
 #link {

@@ -51,6 +51,12 @@ table {
 
 /*start*/
 
+@font-face {
+    font-family: Oswald;
+    src: url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+   
+}
+
 
 #navWrap {
 	position:relative;
@@ -68,6 +74,8 @@ a{
 	text-decoration:none;
 	color:8f8f8f;
 	font-size:1.5em;
+	font-family:Oswald;
+	font-weight:thin;
 }
 
 #link {
@@ -118,6 +126,29 @@ a{
 	top:100px;
 	left:615px;
 	max-width:25%;
+	font-family:Oswald;
+}
+
+h1 {
+	font-family:Oswald;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+h2 {
+	font-family:Oswald;
+	font-weight:thin;
+	font-size:.5em;
+	line-height:3;	
+}
+
+p {
+	font-family:Oswald;
+	font-weight:thin;
+	font-size:.75em;
+	line-height:2;	
+	color:8f8f8f;
+	
 }
 
 #back {
