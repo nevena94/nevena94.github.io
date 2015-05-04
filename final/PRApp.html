@@ -5,6 +5,29 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="StylePortPage.css" type="text/css" media="screen" />
+  
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  <!-- Optionally add helpers - button, thumbnail and/or media -->
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  
+  
+  
+  
+  
 </head>
 <body>
 	<body>
@@ -24,22 +47,32 @@
 			<a href='PortALL.html'><img src="Images/ArrowBack.png" id='backA' alt="backAll"></a>
 		</div>	
 		
-		<img src='Images/PRApp_main.jpg' id='mainImg' alt='PRApp'>
+		<a class="fancybox" rel="group" href="Images/PRApp_main.jpg"><img src="Images/PRApp_main.jpg" id= 'mainImg' alt="main" /></a>
+		
+		
 		<div id='copy'>
 		<h1>Collect-A-Con App</h1>
 		<h2> App, iPad shown</h2>
 		<p>An extension of my Zach's Power Ranger Collection infographic, the app Collect-A-Con was created. This app allows a user to create a profile, upload images and other information about their collections, and network with other collectors. There is also a marketplace connected to the app that promotes sponsered companies and shops as well as allows users to trade items. </p>
 	</div>
 	<div id='imgWrap'>
-		<img src='Images/PRApp_1_icon.jpg' id='otherImg' alt='PRApp1'>	
-		<img src='Images/PRApp_2_icon.jpg' id='otherImg' alt='PRApp2'>	
-		<img src='Images/PRApp_3_icon.jpg' id='otherImg' alt='PRApp3'>
-		<img src='Images/PRApp_4_icon.jpg' id='otherImg' alt='PRApp4'>
-		<img src='Images/PRApp_5_icon.jpg' id='otherImg' alt='PRApp5'>			
+		
+	    <a class="fancybox" rel="group" href="Images/PRApp_1.png"><img src="Images/PRApp_1_icon.jpg" id= 'otherImg' alt="Icon1" /></a>
+	    <a class="fancybox" rel="group" href="Images/PRApp_2.png"><img src="Images/PRApp_2_icon.jpg" id= 'otherImg' alt="Icon2" /></a>
+		<a class="fancybox" rel="group" href="Images/PRApp_3.png"><img src="Images/PRApp_3_icon.jpg" id= 'otherImg' alt="Icon3" /></a>
+		<a class="fancybox" rel="group" href="Images/PRApp_4.png"><img src="Images/PRApp_4_icon.jpg" id= 'otherImg' alt="Icon4" /></a>
+		<a class="fancybox" rel="group" href="Images/PRApp_5.png"><img src="Images/PRApp_5_icon.jpg" id= 'otherImg' alt="Icon5" /></a>
+			
 	</div>
 	</section>
 </body>	
 
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+	
 
 
 
