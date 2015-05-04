@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -51,12 +51,12 @@ table {
 
 /*start*/
 
-body { 
-    background-image: url('Images/Sig.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-	clear: both;
+html { 
+  background: url(Images/Splash.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -64,10 +64,8 @@ body {
 	position:relative;
 	top:0px;
 	left:0px;
-	background:pink;
 	height:80px;
 	max-width:100%;
-	opacity: 0.5; filter: alpha(opacity=50);
 	clear: both;
 	
 }
@@ -85,7 +83,7 @@ a{
 
 #navLinks {
 	position:absolute;
-	top:40px;
+	top:15px;
 	right:30px;
 	
 }
@@ -93,4 +91,15 @@ a{
 	position:absolute;
 	top:5px;
 	left:15px;
+}
+
+#helloWrap {
+	position:relative;
+	top:300px;
+	text-align:center;
+}
+
+#hello {
+	position:absolute;
+	display: inline-block;
 }

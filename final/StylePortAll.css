@@ -56,19 +56,20 @@ table {
 	position:relative;
 	top:0px;
 	left:0px;
-	background:pink;
+	
 	height:80px;
 	max-width:100%;
-	opacity: 0.5; filter: alpha(opacity=50);
+	
 	clear: both;
 	
 }
 
 a{
 	text-decoration:none;
-	color:white;
+	color:8f8f8f;
 	font-size:1.5em;
 }
+
 
 #link {
 	float:left;
@@ -98,4 +99,10 @@ a{
 	float:left;
 	padding:5px;
 
+}
+
+#title {
+	position:relative;
+	top:75px;
+	left:204px;
 }
